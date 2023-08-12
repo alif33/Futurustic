@@ -16,13 +16,13 @@ function Hero() {
         transition={{ duration: .2 }}
       >
         <Image
-          src={"https://res.cloudinary.com/homefinder/image/upload/v1691866472/hero-landscape_hjwx48.jpg"}
+          src="/static/images/hero-landscape.jpg"
           alt="hero-bg 11"
           fill={true}
           className="object-cover -z-10 hidden md:block"
         />
         <Image
-          src={"https://res.cloudinary.com/homefinder/image/upload/v1691866472/hero-landscape_hjwx48.jpg"}
+          src="/static/images/hero-potrait.jpg"
           alt="hero-bg"
           fill={true}
           className="object-cover -z-10 block md:hidden"

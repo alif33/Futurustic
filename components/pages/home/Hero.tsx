@@ -22,7 +22,7 @@ function Hero() {
           className="object-cover -z-10 hidden md:block"
         />
         <Image
-          src={heroLand}
+          src={"https://res.cloudinary.com/homefinder/image/upload/v1691866472/hero-landscape_hjwx48.jpg"}
           alt="hero-bg"
           fill={true}
           className="object-cover -z-10 block md:hidden"

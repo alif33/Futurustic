@@ -9,13 +9,13 @@ function Experiences() {
     <section id="experiences" className="w-full overflow-x-clip">
       <div className="relative px-10">
         <Image
-          src="/static/images/about-landscape.jpg"
+          src={"https://res.cloudinary.com/homefinder/image/upload/v1691866472/hero-landscape_hjwx48.jpg"}
           alt="hero-bg"
           fill={true}
           className="object-cover opacity-30 hidden md:block"
         />
         <Image
-          src="/static/images/about-potrait.jpg"
+          src={"https://res.cloudinary.com/homefinder/image/upload/v1691866472/hero-landscape_hjwx48.jpg"}
           alt="hero-bg"
           fill={true}
           className="object-cover opacity-30 block md:hidden"

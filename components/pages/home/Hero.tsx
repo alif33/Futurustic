@@ -5,7 +5,6 @@ import { HiOutlineExternalLink } from 'react-icons/hi'
 import Typewriter from "typewriter-effect"
 import { motion } from 'framer-motion'
 import { containerShow, itemShow } from '@/lib/animate'
-import heroLand from "../../../resources/images/hero-landscape.jpg"
 
 function Hero() {
   return (

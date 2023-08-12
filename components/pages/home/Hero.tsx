@@ -15,13 +15,13 @@ function Hero() {
         transition={{ duration: .2 }}
       >
         <Image
-          src="/images/hero-landscape.jpg"
+          src="/static/images/hero-landscape.jpg"
           alt="hero-bg"
           fill={true}
           className="object-cover -z-10 hidden md:block"
         />
         <Image
-          src="/images/hero-potrait.jpg"
+          src="/static/images/hero-potrait.jpg"
           alt="hero-bg"
           fill={true}
           className="object-cover -z-10 block md:hidden"

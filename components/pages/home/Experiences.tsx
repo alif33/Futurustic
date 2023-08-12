@@ -9,13 +9,13 @@ function Experiences() {
     <section id="experiences" className="w-full overflow-x-clip">
       <div className="relative px-10">
         <Image
-          src="/images/about-landscape.jpg"
+          src="/static/images/about-landscape.jpg"
           alt="hero-bg"
           fill={true}
           className="object-cover opacity-30 hidden md:block"
         />
         <Image
-          src="/images/about-potrait.jpg"
+          src="/static/images/about-potrait.jpg"
           alt="hero-bg"
           fill={true}
           className="object-cover opacity-30 block md:hidden"

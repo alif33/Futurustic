@@ -5,6 +5,7 @@ import { HiOutlineExternalLink } from 'react-icons/hi'
 import Typewriter from "typewriter-effect"
 import { motion } from 'framer-motion'
 import { containerShow, itemShow } from '@/lib/animate'
+import heroLand from "../../../resources/images/hero-landscape.jpg"
 
 function Hero() {
   return (
@@ -15,7 +16,7 @@ function Hero() {
         transition={{ duration: .2 }}
       >
         <Image
-          src="/static/images/hero-landscape.jpg"
+          src={heroLand}
           alt="hero-bg"
           fill={true}
           className="object-cover -z-10 hidden md:block"
